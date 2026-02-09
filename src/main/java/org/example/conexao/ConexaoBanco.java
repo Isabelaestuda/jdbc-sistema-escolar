@@ -8,8 +8,7 @@ public class ConexaoBanco {
     private static final String url = "jdbc:mysql://localhost:3306/db_sistema_escolar";
     private static final String user = System.getenv("DB_USER");
     private static final String password = System.getenv("DB_PASSWORD");
-//  private static final String user = "root";
-//  private static final String password = "senha$00";
+
 
     private static Connection conexao;
 
