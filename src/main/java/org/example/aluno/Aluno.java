@@ -1,5 +1,6 @@
 package org.example.aluno;
 
+
 public class Aluno {
     private int id;
     private String nomeAluno;
@@ -43,5 +44,9 @@ public class Aluno {
     public void setIdTurma(int idTurma) {
         this.idTurma = idTurma;
     }
+
+
+
+
 
 }
