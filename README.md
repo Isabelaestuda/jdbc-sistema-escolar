@@ -3,15 +3,39 @@
 ### 📌 Descrição do Projeto
 
 Este projeto consiste em um **Sistema Escolar desenvolvido em Java**, utilizando **JDBC** para conexão com banco de dados **MySQL**.
-O sistema permite o **cadastro de turmas** e o **cadastro de alunos**, associando cada aluno a uma turma específica.
-
-O projeto tem como objetivo praticar:
+O projeto evoluiu de um simples cadastro para um CRUD completo, servindo como base para aplicar os seguintes conceitos:
 
 * Programação orientada a objetos (POO)
 * Persistência de dados com JDBC
 * Uso de DAO (Data Access Object)
 * Integração com banco de dados relacional
 * Estruturação de projetos com Maven
+
+---
+
+## ⚙️ Funcionalidades (CRUD Completo)
+
+O sistema realiza as quatro operações básicas (Create, Read, Update, Delete) para as seguintes entidades:
+
+### 👨‍🎓 Gerenciamento de Alunos
+Cadastrar: Registro de novos alunos associados a uma turma.
+
+Listar: Consulta de todos os alunos no banco de dados.
+
+Atualizar: Edição de informações de alunos existentes.
+
+Excluir: Remoção de alunos com validação de ID.
+
+### 🏫 Gerenciamento de Turmas
+Cadastrar: Criação de novas turmas com nome e período.
+
+Listar: Visualização de todas as turmas disponíveis.
+
+Atualizar: Modificação de dados das turmas.
+
+Excluir: Remoção de turmas do sistema.
+
+### 💡 Destaque: Implementado tratamento para IDs inexistentes. Se o usuário tentar modificar ou deletar um registro que não existe, o sistema emitirá um aviso amigável, evitando falhas silenciosas ou erros genéricos de SQL.
 
 ---
 
@@ -114,9 +138,10 @@ Este projeto foi desenvolvido com fins **educacionais**, visando consolidar conh
 * Boas práticas de organização de código
 
 ---
+
 ## Demonstração do Projeto
 
-![Sistema Escolar com JDBC](https://github.com/user-attachments/assets/f036f4b8-767a-475d-b10c-ec46dd82a88c)
+![Sistema Escolar com JDBC](https://github.com/user-attachments/assets/65294a9e-5802-47fe-a780-15d6e2532257)
 
 ---
 :octocat:   SOBRE A DESENVOLVEDORA  
